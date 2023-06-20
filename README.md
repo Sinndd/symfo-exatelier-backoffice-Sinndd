@@ -1,17 +1,17 @@
-##Exatelier Admin O'flix
-#Objectifs
+## Exatelier Admin O'flix
+# Objectifs
 Réaliser un début de back-office pour notre appli de cinéma/séries.
 
 - Entités Doctrine : On est OK, on attend la sécurité pour intégrer le User.
 - Administration : Pouvoir Lister/Afficher/Ajouter/Modifier/Supprimer une partie des entités.
 - 
-#Etat des lieux
+# Etat des lieux
 Il y a actuellement :
 
  Les entités : Genre, Movie, Casting, Person, Review et Season
 - La partie front : liste des films (home) et page détail d'un film (movie_show) accessible à partir de la home et la possibilité d'écrire une Review sur un film/série.
 
-#Ce qu'il manque :
+# Ce qu'il manque :
 
 - La liste des films et séries (menu top).
 - Utiliser les entités Movie dans les Favoris.
@@ -28,7 +28,7 @@ Les notions que nous avons abordées jusqu'à présent :
 - Les fixtures
 - Les formulaires
 - 
-#Interface d'admin
+# Interface d'admin
 
 Créer une "interface d'admin" permettant de lister/afficher/ajouter/modifier/supprimer :
 
@@ -40,7 +40,7 @@ Cette partie pouvant être fastidieuse, entités conseillées en gras (les autre
 - Casting liée à Movie et Person
 - Review
 
-#Contrôleurs et templates
+# Contrôleurs et templates
 
 On fera en sorte de séparer front et back pour les contrôleurs et les templates, par ex.
 
@@ -65,7 +65,7 @@ Mettre les requirements sur les routes avec paramètres.
 
 Effectuer des redirections dans les actions où cela s'avère nécessaire.
 
-#CRUD complet avec make:crud
+# CRUD complet avec make:crud
 
 Utiliser la commande make:crud sur l'entité Movie ! Celle-ci vous crée CRUD complet. Ne pas hésiter à le modifier selon vos besoins !
 Form : Appliquer les types de champs adéquats et leur options éventuelles.
@@ -75,11 +75,11 @@ Appliquer le thème Bootstrap sur les formulaires.
 Afficher les flash messages à l'aide d'une classe CSS cohérente partout où c'est nécessaire.
 Modifier le HTML ou les classes des différentes pages pour avoir un design un pleu plus carré (par ex. les liens et les boutons qui ne sont pas toujours très visibles, etc.).
 
-#Navigation
+# Navigation
 
 Ajouter un lien Admin vers l'interface d'admin. Cette page contiendra du faux texte pour le moment, en revanche toutes les pages du back auront une sous-navigation spécifique avec tous les liens vers les listes des entités à gérer : indice, penser héritage Twig bulb
 
-#Bonus
+# Bonus
 
 Gérer des messages d'erreur custom pour les erreurs 404 (not found) dès qu'il y a un id dans la route.
 Ajouter des fixtures pour les entités créées (Review).
