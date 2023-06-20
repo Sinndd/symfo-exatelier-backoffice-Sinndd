@@ -1,4 +1,6 @@
 ## Exatelier Admin O'flix
+Accès au repo de l'exercice : https://github.com/O-clock-Photon/symfo-oflix-Sinndd
+
 # Objectifs
 Réaliser un début de back-office pour notre appli de cinéma/séries.
 
